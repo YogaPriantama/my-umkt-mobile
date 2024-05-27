@@ -5260,6 +5260,9 @@ fieldset:disabled .btn {
   .navbar-bottom {
     display: flex;
   }
+  #dokumentasi-btn{
+    margin-bottom: 70px;
+  }
 }
 
 /* NAVBAR BOTTOM MOBILE */
