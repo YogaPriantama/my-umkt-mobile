@@ -5226,13 +5226,21 @@ fieldset:disabled .btn {
   }
 }
 
-/* NAVBAR BOTTOM MOBILE */
+/* START: NAVBAR BOTTOM MOBILE */
 
 .navbar-bottom .nav-item.active .nav-link,
 .navbar-bottom .nav-item.active .nav-link:hover,
 .navbar-bottom .nav-item.active .nav-link:focus {
   color: #1E90FF; /* Bright yellow color */
   font-weight: bold; /* Optional: Make it bold */
+}
+
+.navbar-bottom .nav-item .nav-link{
+  font-size: 10pt;
+}
+
+.navbar-bottom .nav-item .nav-link i{
+  font-size: 20px;
 }
 
 .navbar-bottom {
@@ -5272,7 +5280,7 @@ fieldset:disabled .btn {
   }
 }
 
-/* NAVBAR BOTTOM MOBILE */
+/* END: NAVBAR BOTTOM MOBILE */
 
 @media (min-width: 992px) {
   .navbar-expand-lg {
